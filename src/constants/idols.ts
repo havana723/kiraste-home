@@ -22,27 +22,27 @@ export const idolsPhotos: Record<
     {
       photo: "/momo/momo_1.png",
       crop: "momo/momo_1_crop.png",
-      copyright: "햐 (sibalaw)",
+      copyright: "햐",
     },
     {
       photo: "/momo/momo_2.png",
       crop: "momo/momo_2_crop.png",
-      copyright: "햐 (sibalaw)",
+      copyright: "햐",
     },
     {
       photo: "/momo/momo_3.png",
       crop: "momo/momo_3_crop.png",
-      copyright: "햐 (sibalaw)",
+      copyright: "햐",
     },
     {
       photo: "/momo/momo_4.png",
       crop: "momo/momo_4_crop.png",
-      copyright: "햐 (sibalaw)",
+      copyright: "햐)",
     },
     {
       photo: "/momo/momo_5.png",
       crop: "momo/momo_5_crop.png",
-      copyright: "햐 (sibalaw)",
+      copyright: "햐",
     },
   ],
 };
