@@ -297,6 +297,13 @@ Error generating stack: `+i.message+`
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 999999px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
 `,J0=e=>{const{name:t,images:n}=e,[r,l]=C.useState(0);return N.jsxs(ed,{children:[N.jsx(A0,{children:N.jsx(V0,{src:n?n[r].photo:Dl})}),N.jsxs(B0,{children:[N.jsxs(W0,{children:[N.jsx(H0,{src:n?n[r].crop:Dl}),N.jsxs(Q0,{children:["© ",n?n[r].copyright:"참치(@TU_N4_)"]})]}),N.jsx(K0,{children:N.jsxs(Y0,{children:["For. ",t]})}),N.jsx(G0,{children:N.jsx(X0,{})}),N.jsxs(Z0,{children:[N.jsx(ds,{onClick:()=>{if(!n)return;let i=r-1;i<0&&(i+=n.length),l(i)},children:N.jsx(qf,{size:"48px"})}),N.jsx(Zf,{size:"48px"}),N.jsx(ds,{onClick:()=>{if(!n)return;let i=r+1;i>=n.length&&(i-=n.length),l(i)},children:N.jsx(Jf,{size:"48px"})})]})]})]})},q0=j.div`
   position: relative;
   height: calc(100vh - 48px);
