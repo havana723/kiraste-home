@@ -137,8 +137,6 @@ Error generating stack: `+i.message+`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-left: 12px;
-  padding-right: 12px;
   z-index: 500;
 `,O0=j(Ff)`
   text-decoration: none;
