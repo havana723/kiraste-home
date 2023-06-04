@@ -18,8 +18,6 @@ const Background = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-left: 12px;
-  padding-right: 12px;
   z-index: 500;
 `;
 
