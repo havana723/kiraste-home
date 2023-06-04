@@ -105,6 +105,13 @@ const PlayButton = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 999999px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
 `;
 
 interface Props {
